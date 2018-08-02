@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.1*%
+%TF.CreationDate,2018-07-18T08:58:19Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Sebastian Mroz <218559@student.pwr.edu.pl>*%
+%TJ.B_ID,01 Raspberry Hat 7 Schematic*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,85.000000*%
+%TJ.B_Size_Y,56.000000*%
+M02*
