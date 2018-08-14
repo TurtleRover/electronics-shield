@@ -5440,8 +5440,8 @@ Measurement</text>
 <instance part="J2" gate="G$1" x="35.56" y="116.84" rot="MR180"/>
 <instance part="U$1" gate="G$1" x="22.86" y="27.94"/>
 <instance part="SV1" gate="G$1" x="20.32" y="63.5" rot="R180"/>
-<instance part="U$2" gate="G$1" x="91.44" y="134.62"/>
-<instance part="U$2" gate="G$2" x="91.44" y="139.7"/>
+<instance part="U$2" gate="G$1" x="101.6" y="139.7"/>
+<instance part="U$2" gate="G$2" x="101.6" y="134.62"/>
 </instances>
 <busses>
 </busses>
@@ -5478,7 +5478,8 @@ Measurement</text>
 <pinref part="GND38" gate="1" pin="GND"/>
 <wire x1="88.9" y1="134.62" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="134.62" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="K"/>
+<pinref part="U$2" gate="G$2" pin="K"/>
+<wire x1="88.9" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="3"/>
@@ -5720,7 +5721,8 @@ Measurement</text>
 <wire x1="88.9" y1="139.7" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="139.7" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
-<pinref part="U$2" gate="G$2" pin="K"/>
+<pinref part="U$2" gate="G$1" pin="K"/>
+<wire x1="88.9" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DO_NOT_POPULATE" class="0">

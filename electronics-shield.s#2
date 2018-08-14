@@ -301,6 +301,19 @@ reflow soldering</description>
 <text x="-2.794" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.302" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="CON-PHOENIX-381_L_MC2">
+<description>&lt;b&gt;Mini-Combicon 3.81mm horizontal 2-polig&lt;/b&gt;&lt;p&gt;
+ (ohne Gegenstecker)</description>
+<wire x1="-4.5049" y1="-8" x2="4.495" y2="-8" width="0.127" layer="21"/>
+<wire x1="4.495" y1="-8" x2="4.495" y2="1.1999" width="0.127" layer="21"/>
+<wire x1="4.495" y1="1.1999" x2="-4.5049" y2="1.1999" width="0.127" layer="21"/>
+<wire x1="-4.5049" y1="1.1999" x2="-4.5049" y2="-8" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-5.08" x2="4.445" y2="-5.08" width="0.127" layer="21"/>
+<pad name="1" x="-1.905" y="0" drill="1.27" shape="long" rot="R90"/>
+<pad name="2" x="1.905" y="0" drill="1.27" shape="long" rot="R90"/>
+<text x="-3.175" y="2.54" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.175" y="-4.445" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 <package name="ON-SEMICONDUCTOR---NTZD3154NT1G_ON_SEMICONDUCTOR_NTZD3154NT1G_0">
 <description>ONSC-NNMOS-6_F</description>
 <circle x="-0.675" y="1.05" radius="0.05" width="0.1" layer="21"/>
@@ -865,6 +878,11 @@ Source: www.yageo.com .. Pu-YC124_51_PbFree_L_1.pdf</description>
 <pin name="+7V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="CON-PHOENIX-381_L_MCST">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.6096" layer="94"/>
+<pin name="SK" x="0" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="1.905" size="1.524" layer="95">&gt;NAME</text>
+</symbol>
 <symbol name="ON-SEMICONDUCTOR---NTZD3154NT1G_ON_SEMICONDUCTOR_NTZD3154NT1G_0_0">
 <description>ONSC-NNMOS-6_F</description>
 <wire x1="7.62" y1="-5.842" x2="5.08" y2="-5.842" width="0.254" layer="94"/>
@@ -1196,6 +1214,25 @@ FQP27P06 -
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON-PHOENIX-381_L_MC2" prefix="X">
+<description>&lt;b&gt;Mini-Combicon 3.81mm horizontal 2-polig&lt;/b&gt;&lt;p&gt;
+ (ohne Gegenstecker)</description>
+<gates>
+<gate name=".1" symbol="CON-PHOENIX-381_L_MCST" x="0" y="2.54" addlevel="always"/>
+<gate name=".2" symbol="CON-PHOENIX-381_L_MCST" x="0" y="-2.54" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="CON-PHOENIX-381_L_MC2">
+<connects>
+<connect gate=".1" pin="SK" pad="1"/>
+<connect gate=".2" pin="SK" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2674,31 +2711,6 @@ Source: http://eshop.phoenixcontact.com .. 1751303.pdf</description>
 <text x="-14.605" y="-2.8575" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-7.3025" y="4.1275" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="3.81MM_2PIN" urn="urn:adsk.eagle:footprint:4699072/1" library_version="23" library_locally_modified="yes">
-<description>&lt;b&gt;MKDS 1/ 4-3,81&lt;/b&gt;&lt;p&gt;
-Source: http://eshop.phoenixcontact.de</description>
-<wire x1="-7.52651875" y1="-7.9685" x2="-0.10971875" y2="-7.9685" width="0.2032" layer="21"/>
-<wire x1="-7.5184" y1="0.1667" x2="-7.5184" y2="-1.6163" width="0.2032" layer="21"/>
-<wire x1="-7.5184" y1="-0.6277" x2="-7.5184" y2="0.1667" width="0.2032" layer="21"/>
-<wire x1="-7.5184" y1="-6.35" x2="-0.1016" y2="-6.35" width="0.2032" layer="21"/>
-<wire x1="-7.5184" y1="-6.35" x2="-7.52651875" y2="-7.9685" width="0.2032" layer="21"/>
-<wire x1="-7.5184" y1="-2.911" x2="-7.5184" y2="-6.35" width="0.2032" layer="21"/>
-<wire x1="-7.5184" y1="-1.6163" x2="-7.5184" y2="-2.0993" width="0.2032" layer="21"/>
-<wire x1="-7.5184" y1="-2.0993" x2="-7.5184" y2="-2.911" width="0.2032" layer="21"/>
-<wire x1="-0.1016" y1="-6.35" x2="-0.10971875" y2="-7.9685" width="0.2032" layer="21"/>
-<wire x1="-0.1016" y1="-2.911" x2="-0.1016" y2="-6.35" width="0.2032" layer="21"/>
-<wire x1="-0.1016" y1="-1.6163" x2="-0.1016" y2="-2.0993" width="0.2032" layer="21"/>
-<wire x1="-0.1016" y1="-2.0993" x2="-0.1016" y2="-2.911" width="0.2032" layer="21"/>
-<wire x1="-0.1016" y1="-1.6163" x2="-0.1016" y2="0.1667" width="0.2032" layer="21"/>
-<wire x1="-0.1016" y1="-1.8977" x2="-0.1016" y2="0.1667" width="0.2032" layer="21"/>
-<wire x1="-0.1016" y1="-1.8977" x2="-0.1016" y2="1.0084" width="0.2032" layer="21"/>
-<wire x1="-7.5184" y1="1.0084" x2="-0.1016" y2="1.0084" width="0.2032" layer="21"/>
-<wire x1="-7.5184" y1="1.0084" x2="-7.5184" y2="-0.6277" width="0.2032" layer="21"/>
-<pad name="1" x="-5.715" y="0" drill="1.1" diameter="1.9304" rot="R90"/>
-<pad name="2" x="-1.905" y="0" drill="1.1" diameter="1.9304" rot="R90"/>
-<text x="-8.2328" y="-3.8188" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.7558" y="-3.8188" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="C0603K" urn="urn:adsk.eagle:package:23680/2" type="model" library_version="7">
@@ -2843,13 +2855,6 @@ Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
 Source: http://eshop.phoenixcontact.com .. 1751303.pdf</description>
 <packageinstances>
 <packageinstance name="3.5MM_8PIN"/>
-</packageinstances>
-</package3d>
-<package3d name="3.81MM_2PIN" urn="urn:adsk.eagle:package:4699073/1" type="box" library_version="23" library_locally_modified="yes">
-<description>&lt;b&gt;MKDS 1/ 4-3,81&lt;/b&gt;&lt;p&gt;
-Source: http://eshop.phoenixcontact.de</description>
-<packageinstances>
-<packageinstance name="3.81MM_2PIN"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3845,26 +3850,6 @@ Source: http://eshop.phoenixcontact.com .. .pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONNECTOR_PHOENIX_3.81" library_version="23" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="SCHRAUBKLEMME" x="5.08" y="17.78"/>
-<gate name="G$2" symbol="SCHRAUBKLEMME" x="5.08" y="12.7"/>
-</gates>
-<devices>
-<device name="" package="3.81MM_2PIN">
-<connects>
-<connect gate="G$1" pin="K" pad="1"/>
-<connect gate="G$2" pin="K" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4699073/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4019,6 +4004,7 @@ Source: http://eshop.phoenixcontact.com .. .pdf</description>
 <part name="GND36" library="electronics-shield" deviceset="SUPPLY1_GND*?:1" device=""/>
 <part name="P+3" library="electronics-shield" deviceset="SUPPLY1_+5V" device=""/>
 <part name="JP9" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CONNECTOR_PHOENIX" device="" package3d_urn="urn:adsk.eagle:package:4691404/3" value="Listwa zaciskowa rozłączalna 3.50mm 8pin kątowe 90° gniazdo"/>
+<part name="JP8" library="electronics-shield" deviceset="CON-PHOENIX-381_L_MC2" device="" value="Listwa zaciskowa rozłączalna 3.81mm 2pin kątowe 90° gniazdo"/>
 <part name="SUPPLY17" library="electronics-shield" deviceset="SUPPLY2_+7V" device="" value="+7V/1"/>
 <part name="SUPPLY18" library="electronics-shield" deviceset="SUPPLY2_+7V" device="" value="+7V/2"/>
 <part name="SUPPLY13" library="electronics-shield" deviceset="SUPPLY2_VCC*?:1" device=""/>
@@ -4089,7 +4075,6 @@ Source: http://eshop.phoenixcontact.com .. .pdf</description>
 <part name="U5" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="STM32F0XX" device="T" package3d_urn="urn:adsk.eagle:package:4689465/2" technology="8"/>
 <part name="U$1" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="ML8" device="" package3d_urn="urn:adsk.eagle:package:4691403/2"/>
 <part name="SV1" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="ML10" device="" package3d_urn="urn:adsk.eagle:package:4691414/2"/>
-<part name="U$2" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CONNECTOR_PHOENIX_3.81" device="" package3d_urn="urn:adsk.eagle:package:4699073/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -5434,14 +5419,14 @@ Measurement</text>
 <instance part="JP9" gate="-8" x="134.62" y="109.22"/>
 <instance part="GND38" gate="1" x="81.28" y="129.54"/>
 <instance part="SUPPLY19" gate="G$1" x="81.28" y="144.78"/>
+<instance part="JP8" gate=".1" x="88.9" y="134.62" rot="R180"/>
+<instance part="JP8" gate=".2" x="88.9" y="139.7" rot="R180"/>
 <instance part="JP2" gate="A" x="134.62" y="73.66"/>
 <instance part="JP3" gate="A" x="134.62" y="58.42"/>
 <instance part="JP4" gate="A" x="134.62" y="43.18"/>
 <instance part="J2" gate="G$1" x="35.56" y="116.84" rot="MR180"/>
 <instance part="U$1" gate="G$1" x="22.86" y="27.94"/>
 <instance part="SV1" gate="G$1" x="20.32" y="63.5" rot="R180"/>
-<instance part="U$2" gate="G$1" x="91.44" y="134.62"/>
-<instance part="U$2" gate="G$2" x="91.44" y="139.7"/>
 </instances>
 <busses>
 </busses>
@@ -5478,7 +5463,7 @@ Measurement</text>
 <pinref part="GND38" gate="1" pin="GND"/>
 <wire x1="88.9" y1="134.62" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="134.62" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="K"/>
+<pinref part="JP8" gate=".1" pin="SK"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="3"/>
@@ -5720,7 +5705,7 @@ Measurement</text>
 <wire x1="88.9" y1="139.7" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="139.7" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
-<pinref part="U$2" gate="G$2" pin="K"/>
+<pinref part="JP8" gate=".2" pin="SK"/>
 </segment>
 </net>
 <net name="DO_NOT_POPULATE" class="0">
