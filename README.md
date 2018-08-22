@@ -15,7 +15,7 @@ PWM frequency: up to 20 kHz
 3 x adjustable step-down DC-DC 3A converters   
 Built-in STM32F030 microprocessor  
 Available interfaces:  
-- I2C
+- I2C/UART
 - SPI
 - USB
 - SWD
