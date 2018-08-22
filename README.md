@@ -16,7 +16,8 @@ Available interfaces:
 - SPI
 - USB
 - SWD
-- 3 x servo  
+- 3 x servo
+
 Dedicated to Raspberry Pi B + connectors  
 Dimensions: 84 x 56 mm
 
