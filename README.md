@@ -1,6 +1,9 @@
+<p align="center">
+  <a href="http://turtlerover.com" alt="Turtle Rover"><img src="https://avatars3.githubusercontent.com/u/36553642?s=84&v=4" alt="Turtle Rover" /></a>
+</p>
+<h1 align="center">Electronics: shield</h1>
+<h4 align="center">This is Raspberry Pi 3 hat designed for Turtle rover.</h4>  
 
-# electronics-shield
-This is Raspberry Pi 3 hat designed for Turtle rover.  
 ## Specification:
 
 Supply voltage: from 12 V to 28 V  
