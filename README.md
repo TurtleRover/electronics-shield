@@ -1,8 +1,24 @@
 <p align="center">
   <a href="http://turtlerover.com" alt="Turtle Rover"><img src="https://avatars3.githubusercontent.com/u/36553642?s=84&v=4" alt="Turtle Rover" /></a>
 </p>
-<h1 align="center">Electronics: shield</h1>
+<h1 align="center">Electronics: Shield</h1>
 <h4 align="center">This is Raspberry Pi 3 hat designed for Turtle rover.</h4>  
+
+<p align="center">
+  <a href="https://github.com/TurtleRover/electronics-shield/releases">
+    <img src="https://img.shields.io/github/release/TurtleRover/electronics-shield.svg" alt="Release"></a>
+  <a href="https://github.com/TurtleRover/electronics-shield/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/TurtleRover/electronics-shield.svg">
+  </a>
+  <a href="https://twitter.com/TurtleRover">
+    <img src="https://img.shields.io/twitter/follow/TurtleRover.svg?style=social&label=Follow">
+  </a>
+</p>
+<p align="center">
+  <a href="http://turtlerover.com" alt="Website">Website</a> |
+  <a href="https://www.facebook.com/TurtleRover/" alt="Facebook">Facebook</a> |
+  <a href="https://www.youtube.com/channel/UCxukvEct3wP0S5FACa3uelA" alt="YouTube">YouTube</a>
+</p>
 
 ## Specification:
 
@@ -34,9 +50,3 @@ Manufacture files are generated and added to release.
 View this project on [CADLAB.io](https://cadlab.io/project/1250). 
 
 This git project is intended for using with Eagle PCB.
-
-http://turtlerover.com
-
-https://www.youtube.com/channel/UCxukvEct3wP0S5FACa3uelA
-
-https://www.facebook.com/TurtleRover/
