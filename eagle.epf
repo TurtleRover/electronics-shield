@@ -1,5 +1,5 @@
 [Eagle]
-Version="09 01 02"
+Version="09 01 03"
 Platform="Linux"
 Globals="Globals"
 Desktop="Desktop"
@@ -426,6 +426,9 @@ UsedLibrary="/home/frozen/Dropbox/Eagle/eagle_lbr/Synergiczne/usb-serial.lbr"
 UsedLibrary="/home/frozen/Dropbox/Eagle/eagle_lbr/Kell Ideas/TLE9201SG.lbr"
 UsedLibrary="/home/frozen/Dropbox/Eagle/eagle_lbr/Kell Ideas/2920.lbr"
 UsedLibrary="/home/frozen/Dropbox/Eagle/eagle_lbr/Kell Ideas/2920L.lbr"
+UsedLibrary="/home/frozen/Dropbox/Eagle/eagle_lbr/Kell Ideas/Alpha & Omega Semiconductor - AOZ1284PI.lbr"
+UsedLibrary="/home/frozen/Dropbox/Eagle/eagle_lbr/Synergiczne/STMicroelectronics - STM32F103VCT6.lbr"
+UsedLibrary="/home/frozen/Dropbox/Eagle/eagle_lbr/Synergiczne/linear3.lbr"
 
 [Win_1]
 Type="Control Panel"
