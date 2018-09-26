@@ -43,6 +43,13 @@ Dimensions: 84 x 56 mm
 ## Board view
 ![PCB board view](https://i.imgur.com/RVwgbJY.png)
 
+## Connectors standard  
+
+| I2C & Servo  | USB & SPI | Programming  |
+| ------------- | ------------- | ------------- |
+| ![](https://i.imgur.com/ehYpflO.png)  | ![](https://i.imgur.com/naWSxNb.png)  | ![](https://i.imgur.com/JRRP3eg.png) |
+
+
 ## Manufacturing
 Manufacture files are generated and added to release.
 
