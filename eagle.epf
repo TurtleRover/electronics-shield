@@ -405,9 +405,17 @@ UsedLibraryUrn="urn:adsk.eagle:library:970892"
 UsedLibraryUrn="urn:adsk.eagle:library:4400862"
 
 [Win_1]
+Type="Text Editor"
+Number=1
+File="electronics-shield.txt"
+CursorPos="0 0"
+Font="Artifakt Element Book,-1,12,5,50,0,0,0,0,0"
+
+[Win_2]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="3840 1080"
 Window="Win_1"
+Window="Win_2"
