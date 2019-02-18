@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -323,14 +323,10 @@ Metric Code Size 1608</description>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 </package>
-<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" library_version="7">
+<package name="R0603" urn="urn:adsk.eagle:footprint:6534167/1" library_version="114">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
@@ -992,7 +988,7 @@ Metric Code Size 1608</description>
 <rectangle x1="4.826" y1="-1.524" x2="5.334" y2="-1.016" layer="51"/>
 <rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
 </package>
-<package name="PG-DSO-12-9" urn="urn:adsk.eagle:footprint:4698921/1" locally_modified="yes" library_version="36" library_locally_modified="yes">
+<package name="PG-DSO-12-9" urn="urn:adsk.eagle:footprint:4698921/1" library_version="114">
 <description>&lt;b&gt;PG-DSO-12-9&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-2.5" y="-4.7" dx="1.67" dy="0.65" layer="1" rot="R90"/>
@@ -1007,7 +1003,7 @@ Metric Code Size 1608</description>
 <smd name="10" x="-0.5" y="4.7" dx="1.67" dy="0.65" layer="1" rot="R90"/>
 <smd name="11" x="-1.5" y="4.7" dx="1.67" dy="0.65" layer="1" rot="R90"/>
 <smd name="12" x="-2.5" y="4.7" dx="1.67" dy="0.65" layer="1" rot="R90"/>
-<smd name="13" x="0" y="0" dx="6.3728" dy="4.5" layer="1"/>
+<smd name="13" x="0" y="0" dx="8.1" dy="4.5" layer="1"/>
 <text x="-0.494" y="1.764" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <text x="-0.494" y="1.764" size="1.27" layer="25" align="center">&gt;NAME</text>
 <wire x1="-3.2" y1="3.75" x2="3.2" y2="3.75" width="0.2" layer="51"/>
@@ -1078,18 +1074,6 @@ Source: http://eshop.phoenixcontact.de</description>
 <pad name="2" x="-1.905" y="0" drill="1.1" diameter="1.9304" rot="R90"/>
 <text x="-8.2328" y="-3.8188" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="1.7558" y="-3.8188" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="C0402K" urn="urn:adsk.eagle:footprint:23186/1" library_version="28" library_locally_modified="yes">
-<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0204 reflow solder&lt;/b&gt;&lt;p&gt;
-Metric Code Size 1005</description>
-<wire x1="-0.425" y1="0.2" x2="0.425" y2="0.2" width="0.1016" layer="51"/>
-<wire x1="0.425" y1="-0.2" x2="-0.425" y2="-0.2" width="0.1016" layer="51"/>
-<smd name="1" x="-0.6" y="0" dx="0.925" dy="0.74" layer="1"/>
-<smd name="2" x="0.6" y="0" dx="0.925" dy="0.74" layer="1"/>
-<text x="-0.5" y="0.425" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.5" y="-1.45" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.225" y2="0.25" layer="51"/>
-<rectangle x1="0.225" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 </package>
 <package name="R0402" urn="urn:adsk.eagle:footprint:4772487/1" library_version="28" library_locally_modified="yes">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -1289,7 +1273,22 @@ chip</description>
 <pad name="38" x="54.09" y="53.77" drill="1.016" shape="octagon"/>
 <pad name="40" x="56.63" y="53.77" drill="1.016" shape="octagon"/>
 </package>
-<package name="RASPBERRY_PI_B+_CONNECTOR_SMD" urn="urn:adsk.eagle:footprint:5691958/2" locally_modified="yes" library_version="36" library_locally_modified="yes">
+<package name="RASPBERRY_PI_B+_CONNECTOR_SMD" urn="urn:adsk.eagle:footprint:5691958/3" library_version="114">
+<wire x1="0" y1="53" x2="0" y2="3" width="0.127" layer="20"/>
+<wire x1="0" y1="3" x2="3" y2="0" width="0.127" layer="20" curve="90"/>
+<wire x1="3" y1="0" x2="61.934" y2="0" width="0.127" layer="20"/>
+<wire x1="61.934" y1="0" x2="64.934" y2="3" width="0.127" layer="20" curve="90"/>
+<wire x1="64.934" y1="3" x2="64.934" y2="53" width="0.127" layer="20"/>
+<wire x1="64.934" y1="53" x2="61.934" y2="56" width="0.127" layer="20" curve="90"/>
+<wire x1="61.934" y1="56" x2="3" y2="56" width="0.127" layer="20"/>
+<wire x1="3" y1="56" x2="0" y2="53" width="0.127" layer="20" curve="90"/>
+<wire x1="56.5" y1="0" x2="57" y2="0" width="0.127" layer="51"/>
+<wire x1="44" y1="19" x2="44" y2="4" width="0.127" layer="20"/>
+<wire x1="46" y1="4" x2="46" y2="19" width="0.127" layer="20"/>
+<wire x1="44" y1="19" x2="45" y2="20" width="0.127" layer="20" curve="-90"/>
+<wire x1="45" y1="20" x2="46" y2="19" width="0.127" layer="20" curve="-90"/>
+<wire x1="46" y1="4" x2="45" y2="3" width="0.127" layer="20" curve="-90"/>
+<wire x1="45" y1="3" x2="44" y2="4" width="0.127" layer="20" curve="-90"/>
 <pad name="PE_BL" x="3.5" y="3.5" drill="2.75" diameter="6.2"/>
 <pad name="PE_BR" x="61.5" y="3.5" drill="2.75" diameter="6.2"/>
 <pad name="PE_TR" x="61.5" y="52.5" drill="2.75" diameter="6.2"/>
@@ -1334,18 +1333,6 @@ chip</description>
 <smd name="36" x="51.562" y="54.2036" dx="1.9" dy="1" layer="16" rot="R90"/>
 <smd name="38" x="54.102" y="54.2036" dx="1.9" dy="1" layer="16" rot="R90"/>
 <smd name="40" x="56.642" y="54.2036" dx="1.9" dy="1" layer="16" rot="R90"/>
-<wire x1="44" y1="19" x2="44" y2="4" width="0.127" layer="20"/>
-<wire x1="46" y1="4" x2="46" y2="19" width="0.127" layer="20"/>
-<wire x1="44" y1="19" x2="46" y2="19" width="0.127" layer="20" curve="-180"/>
-<wire x1="46" y1="4" x2="44" y2="4" width="0.127" layer="20" curve="-180"/>
-<wire x1="62" y1="0" x2="3" y2="0" width="0.127" layer="20"/>
-<wire x1="0" y1="3" x2="0" y2="53" width="0.127" layer="20"/>
-<wire x1="62" y1="56" x2="3" y2="56" width="0.127" layer="20"/>
-<wire x1="65" y1="53" x2="65" y2="3" width="0.127" layer="20"/>
-<wire x1="65" y1="3" x2="62" y2="0" width="0.127" layer="20" curve="-73.739795"/>
-<wire x1="3" y1="0" x2="0" y2="3" width="0.127" layer="20" curve="-90"/>
-<wire x1="0" y1="53" x2="3" y2="56" width="0.127" layer="20" curve="-73.739795"/>
-<wire x1="62" y1="56" x2="65" y2="53" width="0.127" layer="20" curve="-73.739795"/>
 </package>
 <package name="SOT223" urn="urn:adsk.eagle:footprint:39019/1" library_version="113">
 <description>&lt;b&gt;SOT-223&lt;/b&gt;</description>
@@ -1460,6 +1447,18 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <smd name="5" x="1.0414" y="0" dx="1.1684" dy="0.3556" layer="1"/>
 <smd name="6" x="1.0414" y="0.6604" dx="1.1684" dy="0.3556" layer="1"/>
 </package>
+<package name="C0402K" urn="urn:adsk.eagle:footprint:6534168/1" library_version="114">
+<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0204 reflow solder&lt;/b&gt;&lt;p&gt;
+Metric Code Size 1005</description>
+<wire x1="-0.425" y1="0.2" x2="0.425" y2="0.2" width="0.1016" layer="51"/>
+<wire x1="0.425" y1="-0.2" x2="-0.425" y2="-0.2" width="0.1016" layer="51"/>
+<smd name="1" x="-0.6" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.6" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.5" y="0.425" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.5" y="-1.45" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.225" y2="0.25" layer="51"/>
+<rectangle x1="0.225" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0603K" urn="urn:adsk.eagle:package:23680/2" type="model" library_version="7">
@@ -1469,8 +1468,8 @@ Metric Code Size 1608</description>
 <packageinstance name="C0603K"/>
 </packageinstances>
 </package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:23555/2" type="model" library_version="7">
-<description>RESISTOR</description>
+<package3d name="R0603" urn="urn:adsk.eagle:package:6534169/2" type="model" library_version="114">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="R0603"/>
 </packageinstances>
@@ -1533,7 +1532,7 @@ Metric Code Size 1608</description>
 <packageinstance name="ML10"/>
 </packageinstances>
 </package3d>
-<package3d name="PG-DSO-12-9" urn="urn:adsk.eagle:package:4698922/2" locally_modified="yes" type="model" library_version="36" library_locally_modified="yes">
+<package3d name="PG-DSO-12-9" urn="urn:adsk.eagle:package:4698922/2" type="model" library_version="114">
 <description>&lt;b&gt;PG-DSO-12-9&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="PG-DSO-12-9"/>
@@ -1560,13 +1559,6 @@ Source: http://eshop.phoenixcontact.de</description>
 <packageinstance name="3.81MM_2PIN"/>
 </packageinstances>
 </package3d>
-<package3d name="C0402K" urn="urn:adsk.eagle:package:23679/2" type="model" library_version="28" library_locally_modified="yes">
-<description>Ceramic Chip Capacitor KEMET 0204 reflow solder
-Metric Code Size 1005</description>
-<packageinstances>
-<packageinstance name="C0402K"/>
-</packageinstances>
-</package3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:4772496/1" type="model" library_version="28" library_locally_modified="yes">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -1579,7 +1571,7 @@ chip</description>
 <packageinstance name="RASPBERRY_PI_B+_CONNECTOR_SHORT"/>
 </packageinstances>
 </package3d>
-<package3d name="RASPBERRY_PI_B+_CONNECTOR_SMD" urn="urn:adsk.eagle:package:5691962/2" locally_modified="yes" type="box" library_version="36" library_locally_modified="yes">
+<package3d name="RASPBERRY_PI_B+_CONNECTOR_SMD" urn="urn:adsk.eagle:package:5691962/4" type="model" library_version="114">
 <packageinstances>
 <packageinstance name="RASPBERRY_PI_B+_CONNECTOR_SMD"/>
 </packageinstances>
@@ -1606,6 +1598,13 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <package3d name="SOT65P210X110-6N" urn="urn:adsk.eagle:package:8973299/1" type="box" library_version="114">
 <packageinstances>
 <packageinstance name="SOT65P210X110-6N"/>
+</packageinstances>
+</package3d>
+<package3d name="C0402K" urn="urn:adsk.eagle:package:6534170/1" type="model" library_version="114">
+<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0204 reflow solder&lt;/b&gt;&lt;p&gt;
+Metric Code Size 1005</description>
+<packageinstances>
+<packageinstance name="C0402K"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1959,7 +1958,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAPACITOR_SMD" urn="urn:adsk.eagle:component:4431367/5" prefix="C" uservalue="yes" library_version="33" library_locally_modified="yes">
+<deviceset name="CAPACITOR_SMD" urn="urn:adsk.eagle:component:4431367/6" prefix="C" uservalue="yes" library_version="114">
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -1984,7 +1983,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23679/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6534170/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1994,7 +1993,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR_SMD" urn="urn:adsk.eagle:component:4431366/6" prefix="R" uservalue="yes" library_version="33" library_locally_modified="yes">
+<deviceset name="RESISTOR_SMD" urn="urn:adsk.eagle:component:4431366/8" prefix="R" uservalue="yes" library_version="114">
 <gates>
 <gate name="&gt;NAME" symbol="R-EU" x="0" y="0"/>
 </gates>
@@ -2005,7 +2004,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <connect gate="&gt;NAME" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6534169/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2169,7 +2168,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RASPBERRY_PI_B+" urn="urn:adsk.eagle:component:4689469/6" locally_modified="yes" prefix="PCB" library_version="36" library_locally_modified="yes">
+<deviceset name="RASPBERRY_PI_B+" urn="urn:adsk.eagle:component:4689469/8" prefix="PCB" library_version="114">
 <description>&lt;b&gt;Raspberry Pi B+&lt;/b&gt;&lt;br&gt;
 Basedon issue: Thursday, July 10, 2014 - Rev 1.2&lt;p&gt;
 LBR by Tim Rettmann 07-2014</description>
@@ -2279,7 +2278,7 @@ LBR by Tim Rettmann 07-2014</description>
 <connect gate="G$1" pin="TXD0/GPIO14" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5691962/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5691962/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2418,7 +2417,7 @@ LBR by Tim Rettmann 07-2014</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLE9201SG" urn="urn:adsk.eagle:component:4698923/2" locally_modified="yes" prefix="IC" library_version="36" library_locally_modified="yes">
+<deviceset name="TLE9201SG" urn="urn:adsk.eagle:component:4698923/2" prefix="IC" library_version="114">
 <description>&lt;b&gt;Infineon TLE9201SG, BLDC Motor Driver IC, 28 V 6A 12-Pin, DSO-12-17&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.infineon.com/cms/en/product/packages/PG-DSO/PG-DSO-12-17/"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -17882,8 +17881,8 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 </classes>
 <parts>
 <part name="GND39" library="electronics-shield" deviceset="SUPPLY1_GND*?:1" device=""/>
-<part name="R4" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R5" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R4" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:6534169/2"/>
+<part name="R5" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:6534169/2"/>
 <part name="GND14" library="electronics-shield" deviceset="SUPPLY1_GND*?:1" device=""/>
 <part name="C11" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
 <part name="C10" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
@@ -17900,15 +17899,15 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <part name="C7" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
 <part name="C8" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
 <part name="GND15" library="electronics-shield" deviceset="SUPPLY1_GND*?:1" device=""/>
-<part name="R2" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R3" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R1" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R2" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:6534169/2"/>
+<part name="R3" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:6534169/2"/>
+<part name="R1" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:6534169/2"/>
 <part name="+3V35" library="electronics-shield" deviceset="SUPPLY1_+3V3" device=""/>
 <part name="GND36" library="electronics-shield" deviceset="SUPPLY1_GND*?:1" device=""/>
 <part name="X2" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CONNECTOR_PHOENIX" device="" package3d_urn="urn:adsk.eagle:package:4691404/4" value="Listwa zaciskowa rozłączalna 3.50mm 8pin kątowe 90° gniazdo"/>
 <part name="SUPPLY13" library="electronics-shield" deviceset="SUPPLY2_+7V" device="" value="+7V/1"/>
 <part name="SUPPLY14" library="electronics-shield" deviceset="SUPPLY2_+7V" device="" value="+7V/2"/>
-<part name="PCB1" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RASPBERRY_PI_B+" device="" package3d_urn="urn:adsk.eagle:package:5691962/2" value="Listwa stykowa 2.54mm prosta 2x20 (40-pin), wydłużona"/>
+<part name="PCB1" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RASPBERRY_PI_B+" device="" package3d_urn="urn:adsk.eagle:package:5691962/4" value="Listwa stykowa 2.54mm prosta 2x20 (40-pin), wydłużona"/>
 <part name="FRAME6" library="electronics-shield" deviceset="SYNERGICZNE_RAMKA_SYNERGIA" device=""/>
 <part name="FRAME2" library="electronics-shield" deviceset="SYNERGICZNE_RAMKA_SYNERGIA" device=""/>
 <part name="FRAME3" library="electronics-shield" deviceset="SYNERGICZNE_RAMKA_SYNERGIA" device=""/>
@@ -17922,10 +17921,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <part name="IC2" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="TLE9201SG" device="" package3d_urn="urn:adsk.eagle:package:4698922/2"/>
 <part name="IC3" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="TLE9201SG" device="" package3d_urn="urn:adsk.eagle:package:4698922/2"/>
 <part name="IC4" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="TLE9201SG" device="" package3d_urn="urn:adsk.eagle:package:4698922/2"/>
-<part name="C1" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2" value="100nF"/>
-<part name="C2" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2" value="100nF"/>
-<part name="C3" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2" value="100nF"/>
-<part name="C4" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2" value="100nF"/>
+<part name="C1" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
+<part name="C2" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
+<part name="C3" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
+<part name="C4" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
 <part name="JP1" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="PINHD-1X3" device="_DNP" package3d_urn="urn:adsk.eagle:package:4691208/2" value="Listwa kołkowa 2.54mm prosta 1x3 (3pin)"/>
 <part name="JP2" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="PINHD-1X3" device="_DNP" package3d_urn="urn:adsk.eagle:package:4691208/2" value="Listwa kołkowa 2.54mm prosta 1x3 (3pin)"/>
 <part name="JP3" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="PINHD-1X3" device="_DNP" package3d_urn="urn:adsk.eagle:package:4691208/2" value="Listwa kołkowa 2.54mm prosta 1x3 (3pin)"/>
@@ -17934,7 +17933,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <part name="SV2" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="ML10" device="" package3d_urn="urn:adsk.eagle:package:4691414/2"/>
 <part name="X1" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CONNECTOR_PHOENIX_3.81" device="" package3d_urn="urn:adsk.eagle:package:4699073/2"/>
 <part name="LED1" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:970932/2"/>
-<part name="R9" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R9" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:6534169/2"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Y2" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL-12.288MHZ" device="&quot;" package3d_urn="urn:adsk.eagle:package:37518/1" value="8MHz"/>
@@ -17999,10 +17998,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <part name="F3" library="Seeed-Fuse" library_urn="urn:adsk.eagle:library:469" deviceset="SMD-PPTC-USE-PPTC-0.50A-15V-0.15OHM(1812)" device="" package3d_urn="urn:adsk.eagle:package:32545/1" value="MF-MSMF050-2"/>
 <part name="P+16" library="electronics-shield" deviceset="SUPPLY1_+5V" device=""/>
 <part name="U4" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="V_REG_317" device="SMD" package3d_urn="urn:adsk.eagle:package:39069/1"/>
-<part name="C15" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2" value="100nF"/>
-<part name="C16" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2" value="100nF"/>
-<part name="C14" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2" value="22uF"/>
-<part name="C17" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2" value="22uF"/>
+<part name="C15" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
+<part name="C16" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
+<part name="C14" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
+<part name="C17" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="CAPACITOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23680/2"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -18032,8 +18031,8 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R12" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R13" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R12" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:6534169/2"/>
+<part name="R13" library="Kell Ideas" library_urn="urn:adsk.eagle:library:4431361" deviceset="RESISTOR_SMD" device="_0603" package3d_urn="urn:adsk.eagle:package:6534169/2"/>
 <part name="GND31" library="electronics-shield" deviceset="SUPPLY1_GND*?:1" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="Q5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1"/>
